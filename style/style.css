@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: koodak;
+    src: url(../font/BKoodkBd.ttf) format(truetype);
+}
+body{
+    background-color: lightblue;
+}
+.box{
+    background-color: rgb(134, 152, 230);
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px 50px 10px 50px;
+    position: relative;
+    box-shadow: 0 0 40px rgb(40,40,40);
+}
+.matn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 400px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: justify;
+    padding: 50px 30px;
+    font-family: koodak;
+    font-size: 25px;
+    color: black;
+}
+.right-box{
+    width: 300px;
+    height: 430px;
+    background-image: url(../image/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-size: 305px;
+    background-color: lightblue;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 10px 40px 10px 40px;
+    box-shadow: 0 0 15px black;
+}
+.list{
+    list-style-type: none;
+    margin-top: 310px;
+}
+.list li{
+    padding: 5px 0;
+    margin: 0 10px;
+}
